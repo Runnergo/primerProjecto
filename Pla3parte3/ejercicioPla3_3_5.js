@@ -6,14 +6,14 @@ function valores(cadena){
     var suma=0
 	document.write(cadena+"<br>");
 	
-	for (var j=0; j<26; j++){  
-		
+	for (var j=0; j<abc.length; j++){  
+		tabla[j]=""
 		
 		   for (var i=0; i<lenCadena; i++){ 
 			
                  if (abc.charAt(j)==cadena.charAt(i) ) {
                  suma++;
-                 tabla[j]=[cadena.charAt(i),suma];
+                 tabla[j]=cadena.charAt(i)+" = "+ suma+" ";
                
                  }
                  
