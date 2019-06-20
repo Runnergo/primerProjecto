@@ -1,5 +1,5 @@
 
-function valores(numero){
+function mediaAritmetica(numero){
 	var media
 	var suma=0
 	for (var i=1; i<=numero; i++){
@@ -14,5 +14,5 @@ function valores(numero){
 	media=suma/numero
 	document.write("( "+suma+" / "+numero+" ) = "+media+" es la media");
 	
-	return media;
+	return "la medias es "+media;
 }

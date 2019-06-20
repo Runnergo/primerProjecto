@@ -1,5 +1,5 @@
 
-function valores(cadena){
+function abcde(cadena){
 	var abc="abcdefghijklmnñopqrstuvwyz"
 	var tabla=[];
 	var lenCadena=cadena.length;
@@ -18,10 +18,9 @@ function valores(cadena){
                  }
                  
 	      }
-		   document.write(tabla[j]);
-		   console.log(tabla[j]);	   
+		   document.write(tabla[j]);	   
 		  suma=0
 	}
 		
-    return ; 
+    return tabla; 
 }
