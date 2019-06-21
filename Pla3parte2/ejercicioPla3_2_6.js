@@ -5,6 +5,7 @@ function busqueda(numero){
 		for (var k=0; k<numero; k++){
 			tabla[k]=[];
     	  for (var i=0; i<numero; i++){
+    		  
 		    tabla[k][i]=(Math.floor(Math.random() * 10));
 		    
 		        if (i==0){
