@@ -9,5 +9,5 @@ function busqueda(cadena,letra){
 			j++
 			}
 		}
-	return "la letra "+letra+" esta en las posiciones "+tabla+" en la cadena "+cadena;
+	return "La letra <b><font color=#ff0000>"+letra+"</b><font color=#000000> esta en las posiciones "+tabla+" en la cadena "+cadena;
 }

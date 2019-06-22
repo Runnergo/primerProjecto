@@ -1,16 +1,16 @@
 
-function busqueda(cadena,numero){
-	var j=0
+function busqueda(cadena){
+	var contador=0
 	var tabla =[];
-	for (var i=0; i<10; i++){
+		for (var i=0; i<10; i++){
+		tabla[i]=i+"- No esta ";
 	    for (var k=0; k<cadena.length; k++){
-		console.log(tabla);
 				if (cadena.charAt(k)==i){
-				j++;
-			    tabla[i]=i+"-"+j;
-			    }
+				contador++;
+			    tabla[i]=i+"-"+contador;
+				}
 		}
-	j=0
+	    contador=0
 	}
-	return "Cadena "+cadena+" (numeros de 0 al 9 - cantidad de veces que se repite) " +tabla;
+	return "De la cadena "+cadena+" el orden en la tabla de las repeticiones es el siguiente:<br><br>" +tabla;
 }

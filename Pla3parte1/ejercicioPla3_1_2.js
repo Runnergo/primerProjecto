@@ -1,8 +1,8 @@
 /*ejercicio numero 2*/
 
-function busqueda(cadena,suma,letra){
-	console.log(cadena);
-	console.log(cadena.length);
+function busqueda(cadena,letra){
+	var suma=0;
+	
 	for (var i=0; i<cadena.length; i++){
 		console.log(cadena.charAt(i));
 		if (cadena.charAt(i)==letra){
@@ -10,5 +10,5 @@ function busqueda(cadena,suma,letra){
 			suma++; 
 				}
 		}
-return "la cadena asfgeysssadhffagdsh tiene "+suma+ " " +letra;
+	return "La cadena "+cadena+" tiene " + suma + " " +letra;
 }
