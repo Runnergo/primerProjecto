@@ -271,7 +271,7 @@ PASOS:
 
 ___
 
-##DESCRIPCCION DE LOS EJERCICIOS INICIALES EN JAVASCRIPT
+DESCRIPCCION DE LOS EJERCICIOS INICIALES EN JAVASCRIPT
 ------------------------------------------------------
 
 
@@ -370,11 +370,11 @@ ___
 
 
 
-######Ejercicios realizados por Juan José González Pozo que recive formacion en el centro La Violeta 
+Ejercicios realizados por Juan José González Pozo que recive formacion en el centro La Violeta 
 
 Con el apoyo del Pla De Qualificació en Tecnologia Mòbil **PQTM** 
 
-######Barcelona 23 de Junio 2019
+Barcelona 23 de Junio 2019
 ____
 
 
