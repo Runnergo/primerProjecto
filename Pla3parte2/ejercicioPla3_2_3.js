@@ -1,27 +1,21 @@
 
 function busqueda(){
 		var tabla=[];
-    	var suma=0;
+		var suma=0
+    	var diagonal="";
+    	var  contSuma="";
 		for (var k=0; k<5; k++){
-			tabla[k]=[];
-    	  for (var i=0; i<5; i++){
-    		  if (k==i){
-    			  document.write("<font color=#ff0000><b>");
-    			  }else{
-    		      document.write("<font color=#000000></b>");
-    	          }
-		    tabla[k][i]=(Math.floor(Math.random() * 10));
-		    console.log(tabla[k][i]);
-		        if (i==0){
-		    	document.write("<br>"+tabla[k][i]);	
-	            }else {
-		    	document.write(tabla[k][i]);
-		        }		   
-		  }
-		 } 
-     		for (var k=0; k<5; k++){
-			suma = suma + tabla[k][k];
-		    document.write("<br>"+tabla[k][k]);
- 		 	 }
-  return " la suma de la diagonal es " + suma ;
+		  tabla[k]="";	
+		  
+    	    for (var i=0; i<5; i++){    		    			 
+		    tabla[k]=tabla[k]+(Math.floor(Math.random() * 10));
+ 		  }
+    	
+    	  document.write(tabla[k]+"<br>");    	
+   		  diagonal = diagonal +tabla[k].charAt(contSuma);
+   		  suma =suma + parseInt(tabla[k].charAt(contSuma));
+       	  contSuma++
+	   } 
+
+  return " La suma de la diagonal " + diagonal +" es igual a "+ suma ;
 }  

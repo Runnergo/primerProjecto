@@ -1,6 +1,6 @@
 
 function mediaAritmetica(numero){
-	var media
+	var media=0
 	var suma=0
 	for (var i=1; i<=numero; i++){
 		 suma = suma+i

@@ -4,8 +4,7 @@ function abcde(cadena){
 	var tabla=[];
 	var lenCadena=cadena.length;
     var suma=0
-	document.write(cadena+"<br>");
-	
+	document.write(" La cadena "+cadena+" tiene<br>");
 	for (var j=0; j<abc.length; j++){  
 		tabla[j]=""
 		

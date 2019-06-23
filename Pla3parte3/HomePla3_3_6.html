@@ -2,13 +2,16 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<script type="text/javascript" src="ejercicioPla3_3_5.js"></script>
-<script type="text/javascript" src="ejercicioPla3_3_3.js"></script>
+<script type="text/javascript" src="ejercicioPla3_3_6.js"></script>
+
 <title>Home</title>
 </head>
 <body>
-<script>var resultado1 = abcde()</script>
-<script>var resultado2 = mediaAritmetica()</script>
-<script>alert(resultado1+resultado2);</script>
+<p id="funcionesConjuntas"></p>
+<script>var cadenaABC=prompt("inserta cadena de A´s Y B´s de letras a contar")</script>
+<script>var numero=prompt("calculo de media del 1 al -- elige el numero ")</script>
+<script>var resultado1 = abcde(cadenaABC)</script>
+<script>var resultado2 = mediaAritmetica(numero)</script>
+<script>document.getElementById("funcionesConjuntas").innerHTML =resultado1+resultado2;</script>
 </body>
 </html>

@@ -1,4 +1,12 @@
 function busqueda(numero){
+	
+	if (numero>100){ 
+		return" Numero demasiado alto ha de estar entre 0 y 100";
+	}
+	if ((numero/1)!=numero){ 
+		return" La cadena han de ser numeros no letras ni simbolos";
+	}
+	
 		var tabla=[];
     	var suma=0;
     	var cont=1;
@@ -26,7 +34,7 @@ function busqueda(numero){
              for (var i=0; i<numero-suma; i++){
             	           	
               document.write(tabla[k][cont]);
-              cont++
+             
          	 if ( tabla[k][cont]==0){
         		 contadorIgual++
         	 }
@@ -37,7 +45,7 @@ function busqueda(numero){
         		 contadorMenor++
         		 
         	 }
-        	        
+        	 cont++      
              }
             cont=suma+1
         	document.write("<br>");
