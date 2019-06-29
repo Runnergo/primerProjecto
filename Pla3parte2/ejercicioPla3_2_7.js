@@ -40,7 +40,7 @@ function busqueda(numero){
         	  }
     	      document.write("<br>");
 		   	 }
-    	document.write("<font color=#000000><br> Los numneros por encima de la diagonal son:</b><br><br>");
+    	document.write("<font color=#000000><br> Los numeros por encima de la diagonal son:</b><br><br>");
     	
         for (var k=0; k<numero; k++){
         	suma++        	
