@@ -1,4 +1,16 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_2_6.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Este ejercicio tendrá la misma funcionalidad que el anterior, con la diferencia de que el usuario
+*      podrá determinar de cuanto quiere que sea el vector y que en vez de usar varias tablas usaremos una matriz
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(numero){
 	if (numero>100){ 
 		return" Numero demasiado alto ha de estar entre 0 y 100";

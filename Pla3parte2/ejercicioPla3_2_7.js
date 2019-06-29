@@ -1,3 +1,16 @@
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_2_7.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Usando la matriz de ejercicio anterior, hay que indicar que números 
+*     por encima de la diagonal, son mayore, menores o iguales a cero
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(numero){
 	
 	if (numero>100){ 

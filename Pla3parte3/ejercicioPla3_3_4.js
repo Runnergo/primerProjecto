@@ -1,4 +1,17 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion valores / ejercicioPla3_3_4.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Dada una cadena del 0 al 9 que pondremos dentro de una función, cuenta los números más grandes 
+*     que el valor ingresado por el usuario, y en el caso que el resultado sea mayor que la mitad de la 
+*     cadena mas uno, devuelve el valor 1 si no 0
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function valores(cadena,numero){
 	var mayorMenor=0
 	var lenCadena=cadena.length;

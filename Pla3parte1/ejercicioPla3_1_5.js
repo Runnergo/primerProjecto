@@ -1,4 +1,16 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_1_5.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 - En que posición se encuentra la primera 
+*     letra "a" dentro de una cadena, con opción a que el usuario inserte la cadena.
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(cadena,letra){
 	var posicion=0;
 	var repeat=false

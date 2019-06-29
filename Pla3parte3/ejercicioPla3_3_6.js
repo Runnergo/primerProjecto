@@ -1,4 +1,16 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion valores / ejercicioPla3_3_6.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -En un mismo mensaje retorna los valores del ejercicio 3 y 5Con este ejercicio se pretende
+*      unificar dos funciones llamadas por un mismo código
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function abcde(cadenaABC){
 	var abc="abcdefghijklmnñopqrstuvwyz"
 	var tabla=[];

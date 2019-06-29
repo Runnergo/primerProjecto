@@ -1,4 +1,15 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_1_8.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 - En una cadena con letras deseamos detectar si hay algún número y en que posición se encuentra.
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(cadena){
 	var repes=0
 	var tabla=[]

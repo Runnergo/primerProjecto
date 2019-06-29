@@ -1,4 +1,15 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion valores / ejercicioPla3_3_1.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Crea una función para cada operador lógico (suma, resta, multiplicación y división) con 3 y 15.
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function valores(numUno,numDos){
 		var suma =numUno + numDos;
 		var resta =numUno - numDos;

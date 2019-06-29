@@ -1,4 +1,15 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_2_3.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Añadir en cinco tablas con un vector de 5x5 donde nos de la suma de su diagonal
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(){
 		var tabla=[];
 		var suma=0

@@ -1,4 +1,17 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_1_3.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 - Cuenta la cantidad de veces que se repite una 
+*     letra done el usuario puede escoger la letra y la cadena de texto.
+*      
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(cadena,letra){
 	var suma=0;
 	

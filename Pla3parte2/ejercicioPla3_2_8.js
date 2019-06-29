@@ -1,3 +1,16 @@
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_2_8.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Dada una matriz de tamaño a elegir por el usuario, hacer la media 
+*     aritmética de cada fila e introducir los datos en un vector
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(numero){
 	
 	if (numero>100){ 

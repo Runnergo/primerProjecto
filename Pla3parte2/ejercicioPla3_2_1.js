@@ -1,4 +1,15 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_2_1.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 - De una cadena fija cuenta los números mayores que el introducido por el usuario
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(cadena,numero){
 	var suma=0;
 	var cantidadNumeros=0

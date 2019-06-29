@@ -1,5 +1,16 @@
-/*ejercicio numero 1*/
 
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_1_1.js
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 - Cuenta la cantidad de A´s que hay en una cadena de texto.
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(cadena,letra){
 	var suma=0;
 

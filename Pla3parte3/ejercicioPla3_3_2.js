@@ -1,4 +1,15 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion sumaDiezNumeros / ejercicioPla3_3_2.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Suma los números entre si de una cadena enviada con la función SumaDiezNumeros
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function sumaDiezNumeros(numeros){
 	var suma=parseInt(numeros.charAt(i));
 	document.write("De los numeros "+ numeros+"<br>"); 

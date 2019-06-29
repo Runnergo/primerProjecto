@@ -1,4 +1,16 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion abcde / ejercicioPla3_3_5.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Dada una cadena con A´s B´s C´s... dentro de una función, devuelve la cantidad de letras
+*      repetidas con el siguiente formato A=1, B=2, C=2,...
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function abcde(cadena){
 	var abc="abcdefghijklmnñopqrstuvwyz"
 	var tabla=[];

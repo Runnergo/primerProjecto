@@ -1,4 +1,16 @@
-
+/**    -----------------------------------------------------------------------------------------------------
+*	  @fileoverview  funcion busqueda / ejercicioPla3_2_5.js 
+*
+*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*       
+*     @version   v1.0
+*     
+*     History
+*     v1-0 -Este ejercicio es similar al anterior, pero en vez de usar 5 listas
+*      usaremos una donde estén los 25 elementos del vector 5 por 5
+*     
+*	   ------------------------------------------------------------------------------------------------------
+*/
 function busqueda(numero){
 		var tabla=[];
     	var suma=0;  
