@@ -1,7 +1,7 @@
 /**    -----------------------------------------------------------------------------------------------------
 *	  @fileoverview  funcion busqueda / ejercicioPla3_1_7.js
 *
-*     @author     Juan José González Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
+*     @author     Juan Jose Gonzalez Pozo <juan.gonzalez.cifo@gmail.com> (centro la Violeta)
 *       
 *     @version   v1.0
 *     
