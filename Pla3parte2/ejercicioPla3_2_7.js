@@ -6,8 +6,8 @@
 *     @version   v1.0
 *     
 *     History
-*     v1-0 -Usando la matriz de ejercicio anterior, hay que indicar que números 
-*     por encima de la diagonal, son mayore, menores o iguales a cero
+*     v1-0 -Usando la matriz de ejercicio anterior, hay que indicar que numeros 
+*     por encima de la diagonal, son mayores, menores o iguales a cero
 *     
 *	   ------------------------------------------------------------------------------------------------------
 */
